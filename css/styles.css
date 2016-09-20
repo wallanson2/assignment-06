@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  margin: 0; }
+
+img {
+  height: 250px;
+  width: 250px;
+  display: inline-block;
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-right: 0; }
+
+#app-container {
+  height: 100vh;
+  background: url("../images/YubaRiver.jpg") center center no-repeat;
+  background-size: cover;
+  font-size: 0; }
+
+.window-container {
+  position: fixed;
+  background: lightgrey;
+  width: 505px;
+  height: 260px;
+  top: 60%;
+  left: 45%; }
+
+.speaker-window {
+  height: 250px;
+  width: 250px;
+  display: inline-block; }
+
+.sign-up-window {
+  border: 1px solid grey;
+  height: 250px;
+  width: 250px;
+  display: inline-block;
+  vertical-align: top;
+  font-size: medium;
+  text-align: center;
+  background: white;
+  margin-top: 5px; }
+
+button {
+  width: 200px;
+  background: black;
+  color: white;
+  border-radius: 10px; }
+
+button p {
+  font-size: 20px;
+  margin: 10px; }
+
+/*# sourceMappingURL=styles.css.map */

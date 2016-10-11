@@ -3,34 +3,33 @@
 body {
   margin: 0;
 }
-img {
+.app-container1 {
+   height: 100vh;
+   background: url('../images/YubaRiver.jpg') center center no-repeat;
+   background-size: cover;
+   font-size: 0;
+   position: relative;
+}
+.window-container {
+  position: absolute;
+  background: lightgrey;
+  width: 505px;
+  height: 260px;
+  top: 60%;
+  left: 50%;
+}
+.speaker-window {
+  height: 250px;
+  width: 250px;
+  display: inline-block;
+}
+.speaker-window img {
   height: 250px;
   width: 250px;
   display: inline-block;
   margin-top: 5px;
   margin-left: 5px;
   margin-right: 0;
-}
-
-#app-container{
-  //  max-width: 960px;
-   height: 100vh;
-   background: url('../images/YubaRiver.jpg') center center no-repeat;
-   background-size: cover;
-   font-size: 0;
-}
-.window-container {
-  position: fixed;
-  background: lightgrey;
-  width: 505px;
-  height: 260px;
-  top: 60%;
-  left: 45%;
-}
-.speaker-window {
-  height: 250px;
-  width: 250px;
-  display: inline-block;
 }
 .sign-up-window {
   border: 1px solid grey;
@@ -43,6 +42,13 @@ img {
   background: white;
   margin-top: 5px;
 }
+.sign-up-window i {
+  position: absolute;
+  top: -2%;
+  right: 98%;
+  background: white;
+  border-radius: 50%;
+}
 button {
   width: 200px;
   background: black;
@@ -53,3 +59,77 @@ button p {
   font-size: 20px;
   margin: 10px;
 }
+button:hover {
+  background: lightblue;
+  color: black;
+}
+
+
+//begin second app-container
+
+.app-container2 {
+  height: 100vh;
+  position: relative;
+  margin: 0;
+
+}
+.app-container2 img {
+ width: 100%;
+ display: block;
+}
+.shop {
+  background: black;
+  color: white;
+  height: 70px;
+  width: 120px;
+  margin: auto;
+  position: absolute;
+  top: 85%;
+  right: 45%;
+  }
+.column-container {
+  width: 100%;
+  margin: auto;
+}
+.letter-container {
+  height: 200px;
+}
+.letter-container > * {
+  height: 150px;
+  width: 15%;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  margin: 70px 0 0 8%;
+}
+h1 {
+  font-size: 9em;
+  margin: 0;
+  font-style: italic;
+  font-family: "Gill Sans", sans-serif;
+}
+#img-container{
+  position: relative;
+  height: 600px;
+  width: 80%;
+  background: url('../images/rsvp-shop/avocado-splash.jpg') center center no-repeat;
+  background-size: 90%;
+  margin: auto;
+  margin-bottom: 200px;
+
+  .bag img {
+    height: 45px;
+    width: 30px;
+    position: absolute;
+    top: 30%;
+    left: 85%;
+  }
+}
+
+  .shop span {
+    font-size: 30px;
+  }
+  .shop:hover {
+    background: lightblue;
+    color: black;
+  }

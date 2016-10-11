@@ -39,20 +39,21 @@ body {
   vertical-align: top;
   font-size: medium;
   text-align: center;
-  background: white;
+  background: #ffffff;
   margin-top: 5px;
 }
 .sign-up-window i {
   position: absolute;
   top: -2%;
   right: 98%;
-  background: white;
+  color: #ffffff;
+  background: #000000;
   border-radius: 50%;
 }
 button {
   width: 200px;
-  background: black;
-  color: white;
+  background: #000000;
+  color: #ffffff;
   border-radius: 10px;
 }
 button p {
@@ -61,7 +62,7 @@ button p {
 }
 button:hover {
   background: lightblue;
-  color: black;
+  color: #000000;
 }
 
 
@@ -78,14 +79,14 @@ button:hover {
  display: block;
 }
 .shop {
-  background: black;
+  background: #000000;
   color: white;
-  height: 70px;
+  height: 50px;
   width: 120px;
   margin: auto;
   position: absolute;
   top: 85%;
-  right: 45%;
+  right: 43%;
   }
 .column-container {
   width: 100%;
@@ -131,5 +132,5 @@ h1 {
   }
   .shop:hover {
     background: lightblue;
-    color: black;
+    color: #000000;
   }
